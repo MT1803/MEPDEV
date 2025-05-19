@@ -1,0 +1,7 @@
+# Disable directory listing
+Options -Indexes
+
+# Restrict access to config folder
+<Directory "/config">
+    Deny from all
+</Directory>
